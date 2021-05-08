@@ -5,14 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
-    <header>
+    <!-- header -->
+    <header class="header">
         <nav>
-        <a href="./">WebStudio</a>
+        <a href="./"><span class="web">Web</span>Studio</a>
         <ul>
-            <li><a href="">Студия</a></li>
-            <li><a href="">Портфолио</a></li>
+            <li><a href="./">Студия</a></li>
+            <li><a href="./portfolio.html">Портфолио</a></li>
             <li><a href="">Контакты</a></li>
         </ul>
         </nav>
@@ -23,60 +25,35 @@
             </ul>
         </div>
     </header>
+    
+    <!-- main -->
+   
     <main>
         <section>
-            <h1>Эффективные решения для вашего бизнеса</h1>
-            <button type="button">Заказать услугу</button>
-        </section>
-        <section>
-            <ul>
-                <li> <h3>Внимание к деталям</h3>
-                    <p>Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
-                </li>
-                <li><h3>Пунктуальность</h3><p>Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p> 
-                </li>
-                <li><h3>Планирование</h3>
-                <p>Равным образом консультация с широким активом в значительной степени обуславливает.</p>
-                </li>
-                <li><h3>Современные технологии</h3>
-                <p>Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
-                </li>
-            </ul>
-        </section>
-        <section>
-            <h2>Чем мы занимаемся</h2>
-            <ul>
-                <li><img src="./images/box-1.jpg" alt="Структура сайта и написание кода" width="370" height="294"></li>
-                <li><img src="./images/box-2.jpg" alt="адаптивная верстка" width="370" height="294"></li>
-                <li><img src="./images/box-3.jpg" alt="выбор цвета в цветовой палитре" width="370" height="294"></li>
-            </ul>
-        </section>
-        <section>
-            <h2>Наша команда</h2>
-            <ul>
-                <li><img src="./images/pro-designer.jpg" alt="Product Designer" width="270" height="260">
-                <p><b>Игорь Демьяненко</b></p>
-                <p>Product Designer</p>
-                </li>
-                <li>
-                    <img src="./images/developer.jpg" alt="Frontend Developer" width="270" height="260">
-                <p><b>Ольга Репина</b></p>
-                <p>Frontend Developer</p>
-                </li>
-                <li><img src="./images/marketing.jpg" alt="Marketing" width="270" height="260">
-                <p><b>Николай Тарасов</b></p>
-                <p>Marketing</p>
-                </li>
-                <li>
-                    <img src="./images/ui-designer.jpg" alt="UI Designer" width="270" height="260">
-                    <p><b>Михаил Ермаков</b></p>
-                    <p>UI Designer</p>
-                </li>
-            </ul>
-        </section>
+       <ul>
+           <li class="filter"><button type="button">Все</button></li>
+           <li class="filter"><button type="button">Веб-сайты</button></li>
+           <li class="filter"><button type="button">Приложения</button> </li>
+           <li class="filter"><button type="button">Дизайн</button> </li>
+           <li class="filter"><button type="button">Маркетинг</button> </li>
+       </ul> 
+       <ul>
+             <li><a href=""> <img src="/images/note.jpg" alt="notebook" width="370" height="294"><h3>Технокряк</h3><p>Веб-сайт</p></a></li>
+             <li><a href=""> <img src="/images/basketball.jpg" alt="basketball" width="370" height="294"><h3>Постер New Orlean vs Golden Star</h3><p>Дизайн</p></a></li>
+             <li><a href=""> <img src="/images/restaurant.jpg" alt="restaurant" width="370" height="294"><h3>Ресторан Seafood</h3><p>Приложение</p></a></li>
+             <li><a href=""> <img src="/images/headphones.jpg" alt="headphones" width="370" height="294"><h3>Проект Prime</h3><p>Маркетинг</p></a></li>
+             <li><a href=""> <img src="/images/boxes.jpg" alt="boxes" width="370" height="294"><h3>Проект Boxes</h3><p>Приложение</p></a></li>
+             <li><a href=""> <img src="/images/monitor.jpg" alt="monitor" width="370" height="294"><h3>Inspiration has no Borders</h3><p>Веб-сайт</p></a></li>
+             <li><a href=""> <img src="/images/book.jpg" alt="book" width="370" height="294"><h3>Издание Limited Edition</h3><p>Дизайн</p></a></li>
+             <li><a href=""> <img src="/images/project.jpg" alt="project" width="370" height="294"><h3>Проект LAB</h3><p>Маркетинг</p></a></li>
+             <li><a href=""> <img src="/images/business.jpg" alt="business" width="370" height="294"><h3>Growing Business</h3><p>Приложение</p></a></li>
+         </ul>
+         </section>
     </main>
-    <footer>
-        <a href="./">WebStudio</a>
+
+<!-- footer -->
+    <footer class="footer">
+        <a href="./"><span class="web">Web</span>Studio</a>
         <address><p>г. Киев, пр-т Леси Украинки, 26</p>
         <ul>
             <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>

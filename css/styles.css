@@ -1,0 +1,13 @@
+body {
+    color: #757575 ;
+}
+
+:root {
+    --hed-foot: #2F303A ;
+}
+.header {
+    background-color: var(--hed-foot);
+}
+.footer {
+    background-color: var(--hed-foot);
+}~
