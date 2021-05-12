@@ -12,10 +12,6 @@ body {
   --white-color: #ffffff;
 }
 
-.footer {
-  background-color: var(--background-header-footer);
-}
-
 .web {
   color: var(--blu-color);
 }
@@ -41,4 +37,10 @@ body {
 
 ul {
   list-style: none;
+}
+
+/* Подвал */
+
+.footer {
+  background-color: var(--background-header-footer);
 }
