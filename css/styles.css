@@ -1,14 +1,16 @@
 body {
-  color: #757575;
+  color: var(--accent-color);
   font-family: roboto;
+  background-color: #e5e5e5;
 }
 
 /* Глобальные стили */
 
 :root {
+  --accent-color: #757575;
   --background-header-footer: #2f303a;
   --blu-color: #2196f3;
-  --black-color: #000000;
+  --primary-color: #000000;
   --white-color: #ffffff;
 }
 
@@ -16,10 +18,12 @@ body {
   color: var(--blu-color);
 }
 
-.header .logo {
-  font-family: Raleway;
-  color: var(--black-color);
+.logo {
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  color: var(--black-color);
 }
 
 .navigation-links .link {
@@ -31,8 +35,12 @@ body {
 }
 
 .navigation-links .link:focus,
-.contact .link:hover {
+.navigation-links .link:hover {
   color: var(--blu-color);
+}
+
+.link {
+  text-decoration: none;
 }
 
 ul {
