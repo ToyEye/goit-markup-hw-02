@@ -26,8 +26,8 @@ body {
   font-size: 700;
 }
 
-.header .navigation:focus,
-.header .navigation:hover {
+.navigation .link:focus,
+.navigation .link:hover {
   color: var(--blu-color);
 }
 
