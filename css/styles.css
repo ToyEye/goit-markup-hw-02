@@ -1,7 +1,7 @@
 body {
   color: var(--accent-color);
-  font-family: roboto;
-  background-color: #e5e5e5;
+  font-family: roboto, sans-serif;
+  background-color: #ffffff;
 }
 
 /* Глобальные стили */
@@ -9,46 +9,172 @@ body {
 :root {
   --accent-color: #757575;
   --background-header-footer: #2f303a;
-  --blu-color: #2196f3;
+  --activ: #2196f3;
   --primary-color: #000000;
   --white-color: #ffffff;
+  --logo: #2196f3;
 }
 
-.web {
-  color: var(--blu-color);
+a {
+  text-decoration: none;
 }
+
+li {
+  list-style: none;
+}
+
+/* HEADER */
 
 .logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
-  color: var(--black-color);
+  color: var(--logo);
 }
 
-.navigation-links .link {
+.web {
+  color: var(--primary-color);
+}
+
+.site-nav .link {
   color: #000000;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.1;
 }
 
 .contact .link {
   color: #757575;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.1;
 }
 
-.navigation-links .link:focus,
-.navigation-links .link:hover {
-  color: var(--blu-color);
+.site-nav .link:focus,
+.site-nav .link:hover {
+  color: var(--activ);
 }
 
-.link {
-  text-decoration: none;
+.contact .link:focus,
+.contact .link:hover {
+  color: var(--activ);
 }
 
-ul {
-  list-style: none;
+/* main */
+
+.hero {
+  background-color: var(--background-header-footer);
+}
+
+.hero .title {
+  color: var(--white-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.35;
+  text-align: center;
+}
+
+.hero .btn {
+  color: var(--white-color);
+  background-color: var(--activ);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.8;
+}
+
+/* .hero .btn:focus,
+.hero .btn:hover {
+  color:
+} */
+
+/* ABOUT */
+
+.about .title {
+  color: var(--primary-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+.about .feature {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+/* WORK */
+
+.work .title {
+  color: var(--primary-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+}
+
+/* TEAM */
+
+.team {
+  background-color: #ececec;
+}
+
+.team .title {
+  color: var(--primary-color);
+  text-align: center;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+}
+
+.team .name {
+  color: var(--primary-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.17;
+}
+
+.cards {
+  height: 368px;
+  width: 270px;
+  background-color: var(--white-color);
+}
+
+.team .profession {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.17;
 }
 
 /* Подвал */
 
 .footer {
   background-color: var(--background-header-footer);
+}
+
+.footer .web {
+  color: var(--white-color);
+}
+
+.footer .link {
+  color: var(--accent-color);
+}
+
+.footer .link:hover,
+.footer .link:focus {
+  color: var(--activ);
+}
+
+.address {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+.address .street {
+  color: var(--white-color);
+}
+
+.address .getcontact {
+  color: rgba(255, 255, 255, 0, 6);
 }
