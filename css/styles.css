@@ -1,13 +1,36 @@
 body {
-    color: #757575 ;
+  color: #757575;
+  font-family: roboto;
 }
 
+/* Глобальные стили */
+
 :root {
-    --hed-foot: #2F303A ;
+  --background-header-footer: #2f303a;
+  --blu-color: #2196f3;
+  --black-color: #000000;
+  --white-color: #ffffff;
 }
-.header {
-    background-color: var(--hed-foot);
-}
+
 .footer {
-    background-color: var(--hed-foot);
+  background-color: var(--background-header-footer);
+}
+
+.web {
+  color: var(--blu-color);
+}
+
+.header .logo {
+  font-family: Raleway;
+  color: var(--black-color);
+  font-size: 700;
+}
+
+.header .navigation:focus,
+.header .navigation:hover {
+  color: var(--blu-color);
+}
+
+ul {
+  list-style: none;
 }
