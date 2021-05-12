@@ -23,11 +23,19 @@ body {
 .header .logo {
   font-family: Raleway;
   color: var(--black-color);
-  font-size: 700;
+  font-weight: 700;
 }
 
-.navigation .link:focus,
-.navigation .link:hover {
+.navigation-links .link {
+  color: #000000;
+}
+
+.contact .link {
+  color: #757575;
+}
+
+.navigation-links .link:focus,
+.contact .link:hover {
   color: var(--blu-color);
 }
 
