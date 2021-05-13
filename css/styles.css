@@ -23,7 +23,11 @@ li {
   list-style: none;
 }
 
-/* HEADER */
+.btn {
+  cursor: pointer;
+}
+
+/* HEADER INDEX*/
 
 .logo {
   font-family: "Raleway", sans-serif;
@@ -61,7 +65,7 @@ li {
   color: var(--activ);
 }
 
-/* main */
+/* main INDEX */
 
 .hero {
   background-color: var(--background-header-footer);
@@ -88,7 +92,7 @@ li {
   color:
 } */
 
-/* ABOUT */
+/* ABOUT INDEX */
 
 .about .title {
   color: var(--primary-color);
@@ -103,7 +107,7 @@ li {
   line-height: 1.7;
 }
 
-/* WORK */
+/* WORK INDEX*/
 
 .work .title {
   color: var(--primary-color);
@@ -113,7 +117,7 @@ li {
   text-align: center;
 }
 
-/* TEAM */
+/* TEAM INDEX*/
 
 .team {
   background-color: #ececec;
@@ -144,6 +148,35 @@ li {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.17;
+}
+
+/* MAIN PORTFOLIO */
+
+.filters .btn {
+  color: rgba(33, 33, 33, 1);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.17;
+}
+
+.filters .btn:focus,
+.filters .btn:hover {
+  background-color: var(--activ);
+  color: var(--white-color);
+}
+
+.projects .title {
+  color: var(--primary-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+}
+
+.projects .filter {
+  color: var(--accent-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.7;
 }
 
 /* Подвал */
